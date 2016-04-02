@@ -1,0 +1,112 @@
+body {
+  background: lightsteelblue; }
+  body .picBox {
+    height: 10em; }
+    body .picBox img {
+      height: 100%;
+      width: 100%; }
+  body .topPage {
+    display: block;
+    background: lightsteelblue; }
+    body .topPage header {
+      text-align: center;
+      font-size: 4em;
+      padding: 0.2em;
+      padding-bottom: .6em;
+      background: lightsteelblue;
+      color: darkred; }
+    body .topPage .allView {
+      width: 47em;
+      margin: 0 auto;
+      text-align: center;
+      background: steelblue;
+      border-radius: .4em; }
+      body .topPage .allView .album {
+        margin: 1.5em 1.3%;
+        width: 29%;
+        display: inline-block;
+        line-height: 3;
+        border-radius: .3em;
+        border: 1px solid grey;
+        color: darkred;
+        background: ghostwhite;
+        cursor: pointer; }
+        body .topPage .allView .album:hover {
+          border: 2px solid grey;
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
+  body .midPage {
+    display: none;
+    overflow: hidden; }
+    body .midPage .albumButts {
+      display: block;
+      width: 10em;
+      height: 100%;
+      background: #333333;
+      float: left;
+      padding-top: 8em;
+      padding-bottom: 100%; }
+      body .midPage .albumButts .active {
+        background: lightsteelblue; }
+      body .midPage .albumButts button {
+        width: 90%;
+        background: ghostwhite;
+        padding: .3em 0;
+        margin: 0 0.5em 2em 0.5em;
+        border-radius: 1em;
+        border: 1px solid lightgrey; }
+    body .midPage .photoList .photoDisplay {
+      display: block;
+      overflow: hidden;
+      width: 75%;
+      margin: 0 auto;
+      text-align: center;
+      background: steelblue;
+      border-radius: .4em; }
+      body .midPage .photoList .photoDisplay .photo {
+        margin: 1.5em 1.3%;
+        width: 29%;
+        display: inline-block;
+        line-height: 3;
+        border-radius: .3em;
+        border: 1px solid grey;
+        color: darkred;
+        background: ghostwhite; }
+    body .midPage .photoList .albumTitle {
+      text-align: center;
+      font-weight: normal;
+      margin: 1em 0 1.8em; }
+  body .bottomPage {
+    display: none;
+    overflow: hidden;
+    background: steelblue; }
+    body .bottomPage nav {
+      display: block;
+      overflow: hidden;
+      text-align: center;
+      padding: 0 6%;
+      margin-top: 2em; }
+      body .bottomPage nav .albumReturn {
+        display: block;
+        float: left;
+        margin-top: 0.7em;
+        background: ghostwhite;
+        border: 1px solid grey;
+        border-radius: 3em;
+        width: 9em; }
+        body .bottomPage nav .albumReturn i {
+          padding-right: .5em; }
+      body .bottomPage nav .picTitle {
+        display: block;
+        float: left;
+        font-weight: normal;
+        margin: 0 auto;
+        width: 68%; }
+    body .bottomPage .picture {
+      height: 35em;
+      width: 40em;
+      margin: 3em auto 5em; }
+      body .bottomPage .picture img {
+        height: 100%;
+        width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

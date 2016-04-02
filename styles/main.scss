@@ -1,0 +1,142 @@
+body {
+	background: lightsteelblue;
+	.picBox {
+		height: 10em;
+		img {
+			height: 100%;
+			width: 100%;
+		}
+	}
+	.topPage {
+		display: block;
+		background: lightsteelblue;
+		header {
+			text-align: center;
+		    font-size: 4em;
+		    padding: 0.2em;
+		    padding-bottom: .6em;
+		    background: lightsteelblue;
+		    color: darkred;
+		}
+		.allView {
+			width: 47em;
+			margin: 0 auto;
+			text-align: center;
+			background: steelblue;
+			border-radius: .4em;
+			.album {
+				margin: 1.5em 1.3%;
+			    width: 29%;
+			    display: inline-block;
+			    line-height: 3;
+			    border-radius: .3em;
+			    border: 1px solid grey;
+			    color: darkred;
+			    background: ghostwhite;
+			    cursor: pointer;
+			    &:hover {
+			    	border: 2px solid grey;
+			    	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+			    }
+			}
+		}
+	}
+	.midPage {
+		display: none;
+    	overflow: hidden;
+		.albumButts{
+			display: block;
+		    width: 10em;
+		    height: 100%;
+		    background: #333333;
+		    float: left;
+		    padding-top: 8em;
+		    padding-bottom: 100%;
+    		.active {
+    			background: lightsteelblue;
+    		}
+		    button	{
+		    	width: 90%;
+		    	background: ghostwhite;
+		    	padding: .3em 0;
+		    	margin: 0 0.5em 2em 0.5em;
+		    	border-radius: 1em;
+		    	border: 1px solid lightgrey;
+		    }
+		}
+		.photoList {
+    		.photoDisplay {
+    			display: block;
+    			overflow: hidden;
+	    		width: 75%;
+				margin: 0 auto;
+				text-align: center;
+				background: steelblue;
+				border-radius: .4em;
+				.photo {
+					margin: 1.5em 1.3%;
+				    width: 29%;
+				    display: inline-block;
+				    line-height: 3;
+				    border-radius: .3em;
+				    border: 1px solid grey;
+				    color: darkred;
+				    background: ghostwhite;
+				}
+			}    
+    		.albumTitle {
+	    		text-align: center;
+	    		font-weight: normal;
+	    		margin: 1em 0 1.8em;
+	    	}
+    	}
+	}
+	.bottomPage {
+		display: none;
+		overflow: hidden;
+		background: steelblue;
+		nav {
+			display: block;
+			overflow: hidden;
+			text-align: center;
+			padding: 0 6%;
+			margin-top: 2em;
+			.albumReturn{
+				display: block;
+				float: left;
+				margin-top: 0.7em;
+				background: ghostwhite;
+				border: 1px solid grey;
+				border-radius: 3em;
+				width: 9em;
+				i {
+					padding-right: .5em;
+				}
+			}
+			.picTitle{
+				display: block;
+				float: left;
+				font-weight: normal;
+	    		margin: 0 auto;
+	    		width: 68%;
+			}
+		}
+		.picture {
+			height: 35em;
+		    width: 40em;
+		    margin: 3em auto 5em;
+			img {
+				height: 100%;
+				width: 100%;
+			}
+		}
+
+
+
+
+
+
+
+
+	}
+}
