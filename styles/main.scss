@@ -20,6 +20,7 @@ body {
 		}
 		.allView {
 			width: 47em;
+			height: 32.3125em;	
 			margin: 0 auto;
 			text-align: center;
 			background: steelblue;
@@ -50,7 +51,7 @@ body {
 		    height: 100%;
 		    background: #333333;
 		    float: left;
-		    padding-top: 8em;
+		    padding-top: 13.6em;
 		    padding-bottom: 100%;
     		.active {
     			background: lightsteelblue;
@@ -70,6 +71,8 @@ body {
     			display: block;
     			overflow: hidden;
 	    		width: 75%;
+    			max-width: 47em;
+	    		height: 32.3125em;
 				margin: 0 auto;
 				text-align: center;
 				background: steelblue;
@@ -83,6 +86,11 @@ body {
 				    border: 1px solid grey;
 				    color: darkred;
 				    background: ghostwhite;
+				    cursor: pointer;
+				    &:hover {
+				    	border: 2px solid grey;
+				    	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+				    }
 				}
 			}    
     		.albumTitle {
@@ -110,34 +118,34 @@ body {
 				border: 1px solid grey;
 				border-radius: 3em;
 				width: 9em;
+				&:hover {
+					background: lightsteelblue;
+				}
 				i {
 					padding-right: .5em;
 				}
 			}
+		}
+		.pic {
+			display: block;
+			overflow: hidden;
 			.picTitle{
 				display: block;
-				float: left;
-				font-weight: normal;
-	    		margin: 0 auto;
-	    		width: 68%;
+			    float: left;
+			    text-align: center;
+			    font-weight: normal;
+			    margin: 0 auto;
+			    width: 100%;
+			}
+			.picture {
+				height: 35em;
+			    width: 40em;
+			    margin: 3em auto 5em;
+				img {
+					height: 100%;
+					width: 100%;
+				}
 			}
 		}
-		.picture {
-			height: 35em;
-		    width: 40em;
-		    margin: 3em auto 5em;
-			img {
-				height: 100%;
-				width: 100%;
-			}
-		}
-
-
-
-
-
-
-
-
 	}
 }

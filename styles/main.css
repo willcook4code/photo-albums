@@ -17,6 +17,7 @@ body {
       color: darkred; }
     body .topPage .allView {
       width: 47em;
+      height: 32.3125em;
       margin: 0 auto;
       text-align: center;
       background: steelblue;
@@ -43,7 +44,7 @@ body {
       height: 100%;
       background: #333333;
       float: left;
-      padding-top: 8em;
+      padding-top: 13.6em;
       padding-bottom: 100%; }
       body .midPage .albumButts .active {
         background: lightsteelblue; }
@@ -60,6 +61,8 @@ body {
         display: block;
         overflow: hidden;
         width: 75%;
+        max-width: 47em;
+        height: 32.3125em;
         margin: 0 auto;
         text-align: center;
         background: steelblue;
@@ -72,7 +75,11 @@ body {
           border-radius: .3em;
           border: 1px solid grey;
           color: darkred;
-          background: ghostwhite; }
+          background: ghostwhite;
+          cursor: pointer; }
+          body .midPage .photoList .photoDisplay .photo:hover {
+            border: 2px solid grey;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
       body .midPage .photoList .albumTitle {
         text-align: center;
         font-weight: normal;
@@ -95,20 +102,26 @@ body {
         border: 1px solid grey;
         border-radius: 3em;
         width: 9em; }
+        body .bottomPage nav .albumReturn:hover {
+          background: lightsteelblue; }
         body .bottomPage nav .albumReturn i {
           padding-right: .5em; }
-      body .bottomPage nav .picTitle {
+    body .bottomPage .pic {
+      display: block;
+      overflow: hidden; }
+      body .bottomPage .pic .picTitle {
         display: block;
         float: left;
+        text-align: center;
         font-weight: normal;
         margin: 0 auto;
-        width: 68%; }
-    body .bottomPage .picture {
-      height: 35em;
-      width: 40em;
-      margin: 3em auto 5em; }
-      body .bottomPage .picture img {
-        height: 100%;
         width: 100%; }
+      body .bottomPage .pic .picture {
+        height: 35em;
+        width: 40em;
+        margin: 3em auto 5em; }
+        body .bottomPage .pic .picture img {
+          height: 100%;
+          width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
