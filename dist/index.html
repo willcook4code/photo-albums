@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Albums</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<section class="topPage">
+		<header>All the Animals</header>
+		<div class="allView">
+			<div class="allDogs">
+				<div class="picBox">
+					<img src="images/album-covers/dogs.jpg">
+				</div>
+				Dogs
+			</div>
+			<div class="allFishes">
+				<div class="picBox">
+					<img src="images/album-covers/fishes.jpg">
+				</div>
+				Fish
+			</div>
+			<div class="allSloths">
+				<div class="picBox">
+					<img src="images/album-covers/sloths.jpg">
+				</div>
+				Sloths
+			</div>
+			<div class="allPigs">
+				<div class="picBox">
+					<img src="images/album-covers/pigs.jpg">
+				</div>
+				Pigs
+			</div>
+			<div class="allPenguins">
+				<div class="picBox">
+					<img src="images/album-covers/penguins.jpg">
+				</div>
+				Penguins
+			</div>
+			<div class="allMarmots">
+				<div class="picBox">
+					<img src="images/album-covers/marmots.jpg">
+				</div>
+				Marmots
+			</div>
+		</div>
+	</section>
+	<section class="midPage">
+		<div class="albumButts">
+			<button class="allDogs">Dogs</button>
+			<button class="allFishes">Fishes</button>
+			<button class="allSloths">Sloths</button>
+			<button class="allPigs">Pigs</button>
+			<button class="allPenguins">Penguins</button>
+			<button class="allMarmots">Marmots</button>
+		</div>
+		<div class="photoList" id="dogsAlbum">
+			<h1 class="albumTitle">Dogs</h1>
+			<div class="photoDisplay">
+				<div class="photo">
+					<div class="picBox" id="dogIcon1">
+						<img src="images/dogs/dog1.jpg">
+					</div>
+					Wowza!
+				</div>
+				<div class="photo">
+					<div class="picBox" id="dogIcon2">
+						<img src="images/dogs/dog2.jpg">
+					</div>
+					All About That Basset Hound
+				</div>
+				<div class="photo">
+					<div class="picBox" id="dogIcon3">
+						<img src="images/dogs/dog3.jpg">
+					</div>
+					Anger Issues
+				</div>
+				<div class="photo">
+					<div class="picBox" id="dogIcon4"> 
+						<img src="images/dogs/dog4.jpg">
+					</div>
+					Ermagherd
+				</div>
+				<div class="photo">
+					<div class="picBox" id="dogIcon5">
+						<img src="images/dogs/dog5.jpg">
+					</div>
+					Puppy Love
+				</div>
+				<div class="photo">
+					<div class="picBox" id="dogIcon6">
+						<img src="images/dogs/dog6.jpg">
+					</div>
+					Mr. Monopuppy
+				</div>
+			</div>
+		</div>
+		<div class="photoList" id="fishesAlbum">
+			<h1 class="albumTitle">Fishes</h1>
+			<div class="photoDisplay">
+				<div class="photo">
+					<div class="picBox" id="fishIcon1">
+						<img src="images/fishes/fish1.jpg">
+					</div>
+					Smiley Fish
+				</div>
+				<div class="photo">
+					<div class="picBox" id="fishIcon2">
+						<img src="images/fishes/fish2.jpg">
+					</div>
+					Oliver Sacks
+				</div>
+				<div class="photo">
+					<div class="picBox" id="fishIcon3">
+						<img src="images/fishes/fish3.jpg">
+					</div>
+					EEEK!
+				</div>
+				<div class="photo">
+					<div class="picBox" id="fishIcon4">
+						<img src="images/fishes/fish4.jpg">
+					</div>
+					Scarlet Jofishman
+				</div>
+				<div class="photo">
+					<div class="picBox" id="fishIcon5">
+						<img src="images/fishes/fish5.jpg">
+					</div>
+					Nemo
+				</div>
+				<div class="photo">
+					<div class="picBox" id="fishIcon6">
+						<img src="images/fishes/fish6.jpg">
+					</div>
+					Jimi Findrix
+				</div>
+			</div>
+		</div>
+		<div class="photoList" id="marmotsAlbum">
+			<h1 class="albumTitle">Marmots</h1>
+			<div class="photoDisplay">
+				<div class="photo">
+					<div class="picBox" id="marmotIcon1">
+						<img src="images/marmots/marmot1.jpg">
+					</div>
+					Sit
+				</div>
+				<div class="photo">
+					<div class="picBox" id="marmotIcon2">
+						<img src="images/marmots/marmot2.jpg">
+					</div>
+					Stand
+				</div>
+				<div class="photo">
+					<div class="picBox" id="marmotIcon3">
+						<img src="images/marmots/marmot3.jpg">
+					</div>
+					Yawn
+				</div>
+				<div class="photo">
+					<div class="picBox" id="marmotIcon4">
+						<img src="images/marmots/marmot4.jpg">
+					</div>
+					Yoda
+				</div>
+				<div class="photo">
+					<div class="picBox" id="marmotIcon5">
+						<img src="images/marmots/marmot5.jpg">
+					</div>
+					Paparazzi
+				</div>
+				<div class="photo">
+					<div class="picBox" id="marmotIcon6">
+						<img src="images/marmots/marmot6.jpg">
+					</div>
+					Product Placement
+				</div>
+			</div>
+		</div>
+		<div class="photoList" id="slothsAlbum">
+			<h1 class="albumTitle">Sloths</h1>
+			<div class="photoDisplay">
+				<div class="photo">
+					<div class="picBox" id="slothIcon1">
+						<img src="images/sloths/sloth1.jpg">
+					</div>
+					Sneaky
+				</div>
+				<div class="photo">
+					<div class="picBox" id="slothIcon2">
+						<img src="images/sloths/sloth2.jpg">
+					</div>
+					Laid Back
+				</div>
+				<div class="photo">
+					<div class="picBox" id="slothIcon3">
+						<img src="images/sloths/sloth3.jpg">
+					</div>
+					Cozy
+				</div>
+				<div class="photo">
+					<div class="picBox" id="slothIcon4">
+						<img src="images/sloths/sloth4.jpg">
+					</div>
+					Sloth Bowl
+				</div>
+				<div class="photo">
+					<div class="picBox" id="slothIcon5">
+						<img src="images/sloths/sloth5.jpg">
+					</div>
+					King Sloth
+				</div>
+				<div class="photo">
+					<div class="picBox" id="slothIcon6">
+						<img src="images/sloths/sloth6.jpg">
+					</div>
+					Pull Ups
+				</div>
+			</div>
+		</div>
+		<div class="photoList" id="pigsAlbum">
+			<h1 class="albumTitle">Pigs</h1>
+			<div class="photoDisplay">
+				<div class="photo">
+					<div class="picBox" id="pigIcon1" data-album="pigs">
+						<img src="images/pigs/pig1.jpg">
+					</div>
+					Piglet
+				</div>
+				<div class="photo">
+					<div class="picBox" id="pigIcon2">
+						<img src="images/pigs/pig2.jpg">
+					</div>
+					Ray LaHamtagne
+				</div>
+				<div class="photo">
+					<div class="picBox" id="pigIcon3">
+						<img src="images/pigs/pig3.jpg">
+					</div>
+					McSwiney
+				</div>
+				<div class="photo">
+					<div class="picBox" id="pigIcon4">
+						<img src="images/pigs/pig4.jpg">
+					</div>
+					Cone Ham
+				</div>
+				<div class="photo">
+					<div class="picBox" id="pigIcon5">
+						<img src="images/pigs/pig5.jpg">
+					</div>
+					Dumbo Pig
+				</div>
+				<div class="photo">
+					<div class="picBox" id="pigIcon6">
+						<img src="images/pigs/pig6.jpg">
+					</div>
+					Pig Swim
+				</div>
+			</div>
+		</div>
+		<div class="photoList" id="penguinsAlbum">
+			<h1 class="albumTitle">Penguins</h1>
+			<div class="photoDisplay">
+				<div class="photo">
+					<div class="picBox" id="penguinIcon1" data-album="penguin" data-number="1">
+						<img src="images/penguins/penguin1.jpg">
+					</div>
+					Slide
+				</div>
+				<div class="photo">
+					<div class="picBox" id="penguinIcon2">
+						<img src="images/penguins/penguin2.jpg">
+					</div>
+					Squat
+				</div>
+				<div class="photo">
+					<div class="picBox" id="penguinIcon3">
+						<img src="images/penguins/penguin3.jpg">
+					</div>
+					Punk
+				</div>
+				<div class="photo">
+					<div class="picBox" id="penguinIcon4">
+						<img src="images/penguins/penguin4.jpg">
+					</div>
+					Dances with Birds
+				</div>
+				<div class="photo">
+					<div class="picBox" id="penguinIcon5">
+						<img src="images/penguins/penguin5.jpg">
+					</div>
+					Falling with Style
+				</div>
+				<div class="photo">
+					<div class="picBox" id="penguinIcon6">
+						<img src="images/penguins/penguin6.jpg">
+					</div>
+					Penguin?
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bottomPage">
+		<div class="bigView dogPics">
+			<nav>
+					<button class="albumReturn" id="dogReturn"><i class="fa fa-angle-left"></i>Back to Dogs</button>
+			</nav>
+			<div class="pic" id="dog1">
+					<h1 class="picTitle">Wowza!</h1>
+				<p class="picture">
+					<img src="images/dogs/dog1.jpg">
+				</p>
+			</div>
+			<div class="pic" id="dog2">
+					<h1 class="picTitle">All About That Basset Hound</h1>
+				<p class="picture">
+					<img src="images/dogs/dog2.jpg">
+				</p>
+			</div>
+			<div class="pic" id="dog3">
+					<h1 class="picTitle">Anger Issues</h1>
+				<p class="picture">
+					<img src="images/dogs/dog3.jpg">
+				</p>
+			</div>
+			<div class="pic" id="dog4">
+					<h1 class="picTitle">Ermagherd</h1>
+				<p class="picture">
+					<img src="images/dogs/dog4.jpg">
+				</p>
+			</div>
+			<div class="pic" id="dog5">
+					<h1 class="picTitle">Puppy Love</h1>
+				<p class="picture">
+					<img src="images/dogs/dog5.jpg">
+				</p>
+			</div>
+			<div class="pic" id="dog6">
+					<h1 class="picTitle">Mr. Monopuppy</h1>
+				<p class="picture">
+					<img src="images/dogs/dog6.jpg">
+				</p>
+			</div>
+		</div>
+		<div class="bigView fishPics">
+			<nav>
+				<button class="albumReturn" id="fishReturn"><i class="fa fa-angle-left"></i>Back to Fishes</button>
+			</nav>
+			<div class="pic" id="fish1">
+					<h1 class="picTitle">Smiley Fish</h1>
+				<p class="picture">
+					<img src="images/fishes/fish1.jpg">
+				</p>
+			</div>
+			<div class="pic" id="fish2">
+					<h1 class="picTitle">Oliver Sacks</h1>
+				<p class="picture">
+					<img src="images/fishes/fish2.jpg">
+				</p>
+			</div>
+			<div class="pic" id="fish3">
+					<h1 class="picTitle">EEK!</h1>
+				<p class="picture">
+					<img src="images/fishes/fish3.jpg">
+				</p>
+			</div>
+			<div class="pic" id="fish4">
+					<h1 class="picTitle">Scarlet Jofishman</h1>
+				<p class="picture">
+					<img src="images/fishes/fish4.jpg">
+				</p>
+			</div>
+			<div class="pic" id="fish5">
+					<h1 class="picTitle">Nemp</h1>
+				<p class="picture">
+					<img src="images/fishes/fish5.jpg">
+				</p>
+			</div>
+			<div class="pic" id="fish6">
+					<h1 class="picTitle">Jimi Findrix</h1>
+				<p class="picture">
+					<img src="images/fishes/fish6.jpg">
+				</p>
+			</div>
+		</div>
+		<div class="bigView slothPics">
+			<nav>
+				<button class="albumReturn" id="slothReturn"><i class="fa fa-angle-left"></i>Back to Sloths</button>
+			</nav>
+			<div class="pic" id="sloth1">
+					<h1 class="picTitle">Sneaky</h1>
+				<p class="picture">
+					<img src="images/sloths/sloth1.jpg">
+				</p>
+			</div>
+			<div class="pic" id="sloth2">
+					<h1 class="picTitle">Laid Back</h1>
+				<p class="picture">
+					<img src="images/sloths/sloth2.jpg">
+				</p>
+			</div>
+			<div class="pic" id="sloth3">
+					<h1 class="picTitle">Cozy</h1>
+				<p class="picture">
+					<img src="images/sloths/sloth3.jpg">
+				</p>
+			</div>
+			<div class="pic" id="sloth4">
+					<h1 class="picTitle">Sloth Bowl</h1>
+				<p class="picture">
+					<img src="images/sloths/sloth4.jpg">
+				</p>
+			</div>
+			<div class="pic" id="sloth5">
+					<h1 class="picTitle">King Sloth</h1>
+				<p class="picture">
+					<img src="images/sloths/sloth5.jpg">
+				</p>
+			</div>
+			<div class="pic" id="sloth6">
+					<h1 class="picTitle">Pull Ups</h1>
+				<p class="picture">
+					<img src="images/sloths/sloth6.jpg">
+				</p>
+			</div>
+		</div>
+		<div class="bigView pigPics">
+			<nav>
+				<button class="albumReturn" id="pigReturn"><i class="fa fa-angle-left"></i>Back to Pigs</button>
+			</nav>
+			<div class="pic" id="pig1">
+					<h1 class="picTitle">Piglet</h1>
+				<p class="picture">
+					<img src="images/pigs/pig1.jpg">
+				</p>
+			</div>
+			<div class="pic" id="pig2">
+					<h1 class="picTitle">Ray LaHamtagne</h1>
+				<p class="picture">
+					<img src="images/pigs/pig2.jpg">
+				</p>
+			</div>
+			<div class="pic" id="pig3">
+					<h1 class="picTitle">McSwiney</h1>
+				<p class="picture">
+					<img src="images/pigs/pig3.jpg">
+				</p>
+			</div>
+			<div class="pic" id="pig4">
+					<h1 class="picTitle">Cone Ham</h1>
+				<p class="picture">
+					<img src="images/pigs/pig4.jpg">
+				</p>
+			</div>
+			<div class="pic" id="pig5">
+					<h1 class="picTitle">Dumbo Pig</h1>
+				<p class="picture">
+					<img src="images/pigs/pig5.jpg">
+				</p>
+			</div>
+			<div class="pic" id="pig6">
+					<h1 class="picTitle">Pig Swim</h1>
+				<p class="picture">
+					<img src="images/pigs/pig6.jpg">
+				</p>
+			</div>
+		</div>
+		<div class="bigView penguinPics">
+			<nav>
+				<button class="albumReturn" id="penguinReturn"><i class="fa fa-angle-left"></i>Back to Penguins</button>
+			</nav>
+			<div class="pic" id="penguin1">
+					<h1 class="picTitle">Slide</h1>
+				<p class="picture">
+					<img src="images/penguins/penguin1.jpg">
+				</p>
+			</div>
+			<div class="pic" id="penguin2">
+					<h1 class="picTitle">Squat</h1>
+				<p class="picture">
+					<img src="images/penguins/penguin2.jpg">
+				</p>
+			</div>
+			<div class="pic" id="penguin3">
+					<h1 class="picTitle">Punk</h1>
+				<p class="picture">
+					<img src="images/penguins/penguin3.jpg">
+				</p>
+			</div>
+			<div class="pic" id="penguin4">
+					<h1 class="picTitle">Dances with Birds</h1>
+				<p class="picture">
+					<img src="images/penguins/penguin4.jpg">
+				</p>
+			</div>
+			<div class="pic" id="penguin5">
+					<h1 class="picTitle">Falling with Style</h1>
+				<p class="picture">
+					<img src="images/penguins/penguin5.jpg">
+				</p>
+			</div>
+			<div class="pic" id="penguin6">
+					<h1 class="picTitle">Penguin?</h1>
+				<p class="picture">
+					<img src="images/penguins/penguin6.jpg">
+				</p>
+			</div>
+		</div>
+		<div class="bigView marmotPics">
+			<nav>
+				<button class="albumReturn" id="marmotReturn"><i class="fa fa-angle-left"></i>Back to Marmots</button>
+			</nav>
+			<div class="pic" id="marmot1">
+					<h1 class="picTitle">Sit</h1>
+				<p class="picture">
+					<img src="images/marmots/marmot1.jpg">
+				</p>
+			</div>
+			<div class="pic" id="marmot2">
+					<h1 class="picTitle">Stand</h1>
+				<p class="picture">
+					<img src="images/marmots/marmot2.jpg">
+				</p>
+			</div>
+			<div class="pic" id="marmot3">
+					<h1 class="picTitle">Yawn</h1>
+				<p class="picture">
+					<img src="images/marmots/marmot3.jpg">
+				</p>
+			</div>
+			<div class="pic" id="marmot4">
+					<h1 class="picTitle">Yoda</h1>
+				<p class="picture">
+					<img src="images/marmots/marmot4.jpg">
+				</p>
+			</div>
+			<div class="pic" id="marmot5">
+					<h1 class="picTitle">Paparazzi</h1>
+				<p class="picture">
+					<img src="images/marmots/marmot5.jpg">
+				</p>
+			</div>
+			<div class="pic" id="marmot6">
+					<h1 class="picTitle">Product Placement</h1>
+				<p class="picture">
+					<img src="images/marmots/marmot6.jpg">
+				</p>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript" src="apps.js"></script>
+</body>
+</html>
