@@ -1,43 +1,43 @@
 import $ from 'jquery';
-
-$('#marmotReturn').click(function() {
+//Return to mid page.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$('#marmotReturn').click(e => {
 	$('.bottomPage').hide();
 	$('.midPage').show();
 	$('.albumButts').removeClass('active');
 	$('.marmots').addClass('active');
 });
-$('#penguinReturn').click(function() {
+$('#penguinReturn').click(e => {
 	$('.bottomPage').hide();
 	$('.midPage').show();
 	$('.albumButts').removeClass('active');
 	$('.penguins').addClass('active');
 });
-$('#pigReturn').click(function() {
+$('#pigReturn').click(e => {
 	$('.bottomPage').hide();
 	$('.midPage').show();
 	$('.albumButts').removeClass('active');
 	$('.pigs').addClass('active');
 });
-$('#slothReturn').click(function() {
+$('#slothReturn').click(e => {
 	$('.bottomPage').hide();
 	$('.midPage').show();
 	$('.albumButts').removeClass('active');
 	$('.sloths').addClass('active');
 });
-$('#fishReturn').click(function() {
+$('#fishReturn').click(e => {
 	$('.bottomPage').hide();
 	$('.midPage').show();
 	$('.albumButts').removeClass('active');
 	$('.fishes').addClass('active');
 });
-$('#dogReturn').click(function() {
+$('#dogReturn').click(e => {
 	$('.bottomPage').hide();
 	$('.midPage').show();
 	$('.albumButts').removeClass('active');
 	$('.dogs').addClass('active');
 });
-
-$('#marmotIcon6').click(function() {
+//Large view - Marmots~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$('#marmotIcon6').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -45,7 +45,7 @@ $('#marmotIcon6').click(function() {
 	$('.pic').hide();
 	$('#marmot6').show();
 });
-$('#marmotIcon5').click(function() {
+$('#marmotIcon5').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -53,7 +53,7 @@ $('#marmotIcon5').click(function() {
 	$('.pic').hide();
 	$('#marmot5').show();
 });
-$('#marmotIcon4').click(function() {
+$('#marmotIcon4').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -61,7 +61,7 @@ $('#marmotIcon4').click(function() {
 	$('.pic').hide();
 	$('#marmot4').show();
 });
-$('#marmotIcon3').click(function() {
+$('#marmotIcon3').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -69,7 +69,7 @@ $('#marmotIcon3').click(function() {
 	$('.pic').hide();
 	$('#marmot3').show();
 });
-$('#marmotIcon2').click(function() {
+$('#marmotIcon2').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -77,7 +77,7 @@ $('#marmotIcon2').click(function() {
 	$('.pic').hide();
 	$('#marmot2').show();
 });
-$('#marmotIcon1').click(function() {
+$('#marmotIcon1').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -85,8 +85,8 @@ $('#marmotIcon1').click(function() {
 	$('.pic').hide();
 	$('#marmot1').show();
 });
-
-$('#penguinIcon6').click(function() {
+//Large view - Penguins~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$('#penguinIcon6').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -94,7 +94,7 @@ $('#penguinIcon6').click(function() {
 	$('.pic').hide();
 	$('#penguin6').show();
 });
-$('#penguinIcon5').click(function() {
+$('#penguinIcon5').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -102,7 +102,7 @@ $('#penguinIcon5').click(function() {
 	$('.pic').hide();
 	$('#penguin5').show();
 });
-$('#penguinIcon4').click(function() {
+$('#penguinIcon4').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -110,7 +110,7 @@ $('#penguinIcon4').click(function() {
 	$('.pic').hide();
 	$('#penguin4').show();
 });
-$('#penguinIcon3').click(function() {
+$('#penguinIcon3').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -118,7 +118,7 @@ $('#penguinIcon3').click(function() {
 	$('.pic').hide();
 	$('#penguin3').show();
 });
-$('#penguinIcon2').click(function() {
+$('#penguinIcon2').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -126,7 +126,7 @@ $('#penguinIcon2').click(function() {
 	$('.pic').hide();
 	$('#penguin2').show();
 });
-$('#penguinIcon1').click(function() {
+$('#penguinIcon1').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -134,8 +134,8 @@ $('#penguinIcon1').click(function() {
 	$('.pic').hide();
 	$('#penguin1').show();
 });
-
-$('#pigIcon6').click(function() {
+//Large view - Pigs~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$('#pigIcon6').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -143,7 +143,7 @@ $('#pigIcon6').click(function() {
 	$('.pic').hide();
 	$('#pig6').show();
 });
-$('#pigIcon5').click(function() {
+$('#pigIcon5').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -151,7 +151,7 @@ $('#pigIcon5').click(function() {
 	$('.pic').hide();
 	$('#pig5').show();
 });
-$('#pigIcon4').click(function() {
+$('#pigIcon4').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -159,7 +159,7 @@ $('#pigIcon4').click(function() {
 	$('.pic').hide();
 	$('#pig4').show();
 });
-$('#pigIcon3').click(function() {
+$('#pigIcon3').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -167,7 +167,7 @@ $('#pigIcon3').click(function() {
 	$('.pic').hide();
 	$('#pig3').show();
 });
-$('#pigIcon2').click(function() {
+$('#pigIcon2').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -175,7 +175,7 @@ $('#pigIcon2').click(function() {
 	$('.pic').hide();
 	$('#pig2').show();
 });
-$('#pigIcon1').click(function() {
+$('#pigIcon1').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -183,8 +183,8 @@ $('#pigIcon1').click(function() {
 	$('.pic').hide();
 	$('#pig1').show();
 });
-
-$('#slothIcon6').click(function() {
+//Large view - Sloths~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$('#slothIcon6').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -192,7 +192,7 @@ $('#slothIcon6').click(function() {
 	$('.pic').hide();
 	$('#sloth6').show();
 });
-$('#slothIcon5').click(function() {
+$('#slothIcon5').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -200,7 +200,7 @@ $('#slothIcon5').click(function() {
 	$('.pic').hide();
 	$('#sloth5').show();
 });
-$('#slothIcon4').click(function() {
+$('#slothIcon4').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -208,7 +208,7 @@ $('#slothIcon4').click(function() {
 	$('.pic').hide();
 	$('#sloth4').show();
 });
-$('#slothIcon3').click(function() {
+$('#slothIcon3').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -216,7 +216,7 @@ $('#slothIcon3').click(function() {
 	$('.pic').hide();
 	$('#sloth3').show();
 });
-$('#slothIcon2').click(function() {
+$('#slothIcon2').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -224,7 +224,7 @@ $('#slothIcon2').click(function() {
 	$('.pic').hide();
 	$('#sloth2').show();
 });
-$('#slothIcon1').click(function() {
+$('#slothIcon1').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -232,8 +232,8 @@ $('#slothIcon1').click(function() {
 	$('.pic').hide();
 	$('#sloth1').show();
 });
-
-$('#fishIcon6').click(function() {
+//Large view - Fish~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$('#fishIcon6').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -241,7 +241,7 @@ $('#fishIcon6').click(function() {
 	$('.pic').hide();
 	$('#fish6').show();
 });
-$('#fishIcon5').click(function() {
+$('#fishIcon5').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -249,7 +249,7 @@ $('#fishIcon5').click(function() {
 	$('.pic').hide();
 	$('#fish5').show();
 });
-$('#fishIcon4').click(function() {
+$('#fishIcon4').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -257,7 +257,7 @@ $('#fishIcon4').click(function() {
 	$('.pic').hide();
 	$('#fish4').show();
 });
-$('#fishIcon3').click(function() {
+$('#fishIcon3').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -265,7 +265,7 @@ $('#fishIcon3').click(function() {
 	$('.pic').hide();
 	$('#fish3').show();
 });
-$('#fishIcon2').click(function() {
+$('#fishIcon2').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -273,7 +273,7 @@ $('#fishIcon2').click(function() {
 	$('.pic').hide();
 	$('#fish2').show();
 });
-$('#fishIcon1').click(function() {
+$('#fishIcon1').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -281,8 +281,8 @@ $('#fishIcon1').click(function() {
 	$('.pic').hide();
 	$('#fish1').show();
 });
-
-$('#dogIcon6').click(function() {
+//Large view - Dogs~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$('#dogIcon6').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -290,7 +290,7 @@ $('#dogIcon6').click(function() {
 	$('.pic').hide();
 	$('#dog6').show();
 });
-$('#dogIcon5').click(function() {
+$('#dogIcon5').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -298,7 +298,7 @@ $('#dogIcon5').click(function() {
 	$('.pic').hide();
 	$('#dog5').show();
 });
-$('#dogIcon4').click(function() {
+$('#dogIcon4').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -306,7 +306,7 @@ $('#dogIcon4').click(function() {
 	$('.pic').hide();
 	$('#dog4').show();
 });
-$('#dogIcon3').click(function() {
+$('#dogIcon3').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -314,7 +314,7 @@ $('#dogIcon3').click(function() {
 	$('.pic').hide();
 	$('#dog3').show();
 });
-$('#dogIcon2').click(function() {
+$('#dogIcon2').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -322,7 +322,7 @@ $('#dogIcon2').click(function() {
 	$('.pic').hide();
 	$('#dog2').show();
 });
-$('#dogIcon1').click(function() {
+$('#dogIcon1').click(e => {
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
@@ -331,74 +331,74 @@ $('#dogIcon1').click(function() {
 	$('#dog1').show();
 });
 //Toggle through Mid Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-$('.allDogs').click(function(e) {
+$('.allDogs').click(e => {
 	$('button').removeClass('active');
 	$('e.target').toggleClass('active');
 	$('.photoList').hide();
 	$('#dogsAlbum').show();
 });
-$('.allFishes').click(function(e) {
+$('.allFishes').click(e => {
 	$('button').removeClass('active');
 	$(e.target).addClass('active');
 	$('.photoList').hide();
 	$('#fishesAlbum').show();
 });
-$('.allSloths').click(function(e) {
+$('.allSloths').click(e => {
 	$('button').removeClass('active');
 	$(e.target).addClass('active');
 	$('.photoList').hide();
 	$('#slothsAlbum').show();
 });
-$('.allPigs').click(function(e) {
+$('.allPigs').click(e => {
 	$('button').removeClass('active');
 	$(e.target).addClass('active');
 	$('.photoList').hide();
 	$('#pigsAlbum').show();
 });
-$('.allMarmots').click(function(e) {
+$('.allMarmots').click(e => {
 	$('button').removeClass('active');
 	$(e.target).addClass('active');
 	$('.photoList').hide();
 	$('#marmotsAlbum').show();
 });
-$('.allPenguins').click(function(e) {
+$('.allPenguins').click(e => {
 	$('button').removeClass('active');
 	$(e.target).addClass('active');
 	$('.photoList').hide();
 	$('#penguinsAlbum').show();
 });
 //Top Page to Mid Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-$('.allMarmots').click(function(e) {
+$('.allMarmots').click(e => {
 	$('.topPage').hide();
 	$('.midPage').show();
 	$('.allMarmots').addClass('active');
 	$('#marmotsAlbum').show();
 });
-$('.allPenguins').click(function(e) {
+$('.allPenguins').click(e => {
 	$('.topPage').hide();
 	$('.midPage').show();
 	$('.allPenguins').addClass('active');
 	$('#penguinsAlbum').show();
 });
-$('.allPigs').click(function(e) {
+$('.allPigs').click(e => {
 	$('.topPage').hide();
 	$('.midPage').show();
 	$('.allPigs').addClass('active');
 	$('#pigsAlbum').show();
 });
-$('.allSloths').click(function(e) {
+$('.allSloths').click(e => {
 	$('.topPage').hide();
 	$('.midPage').show();
 	$('.allSloths').addClass('active');
 	$('#slothsAlbum').show();
 });
-$('.allDogs').click(function(e) {
+$('.allDogs').click(e => {
 	$('.topPage').hide();
 	$('.midPage').show();
 	$('.allDogs').addClass('active');
 	$('#dogsAlbum').show();
 });
-$('.allFishes').click(function(e) {
+$('.allFishes').click(e => {
 	$('.topPage').hide();
 	$('.midPage').show();
 	$('.allFishes').addClass('active');

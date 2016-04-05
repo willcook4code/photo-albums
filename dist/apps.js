@@ -9851,44 +9851,45 @@ var _jquery2 = _interopRequireDefault(_jquery);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-(0, _jquery2.default)('#marmotReturn').click(function () {
+//Return to mid page.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(0, _jquery2.default)('#marmotReturn').click(function (e) {
 	(0, _jquery2.default)('.bottomPage').hide();
 	(0, _jquery2.default)('.midPage').show();
 	(0, _jquery2.default)('.albumButts').removeClass('active');
 	(0, _jquery2.default)('.marmots').addClass('active');
 });
-(0, _jquery2.default)('#penguinReturn').click(function () {
+(0, _jquery2.default)('#penguinReturn').click(function (e) {
 	(0, _jquery2.default)('.bottomPage').hide();
 	(0, _jquery2.default)('.midPage').show();
 	(0, _jquery2.default)('.albumButts').removeClass('active');
 	(0, _jquery2.default)('.penguins').addClass('active');
 });
-(0, _jquery2.default)('#pigReturn').click(function () {
+(0, _jquery2.default)('#pigReturn').click(function (e) {
 	(0, _jquery2.default)('.bottomPage').hide();
 	(0, _jquery2.default)('.midPage').show();
 	(0, _jquery2.default)('.albumButts').removeClass('active');
 	(0, _jquery2.default)('.pigs').addClass('active');
 });
-(0, _jquery2.default)('#slothReturn').click(function () {
+(0, _jquery2.default)('#slothReturn').click(function (e) {
 	(0, _jquery2.default)('.bottomPage').hide();
 	(0, _jquery2.default)('.midPage').show();
 	(0, _jquery2.default)('.albumButts').removeClass('active');
 	(0, _jquery2.default)('.sloths').addClass('active');
 });
-(0, _jquery2.default)('#fishReturn').click(function () {
+(0, _jquery2.default)('#fishReturn').click(function (e) {
 	(0, _jquery2.default)('.bottomPage').hide();
 	(0, _jquery2.default)('.midPage').show();
 	(0, _jquery2.default)('.albumButts').removeClass('active');
 	(0, _jquery2.default)('.fishes').addClass('active');
 });
-(0, _jquery2.default)('#dogReturn').click(function () {
+(0, _jquery2.default)('#dogReturn').click(function (e) {
 	(0, _jquery2.default)('.bottomPage').hide();
 	(0, _jquery2.default)('.midPage').show();
 	(0, _jquery2.default)('.albumButts').removeClass('active');
 	(0, _jquery2.default)('.dogs').addClass('active');
 });
-
-(0, _jquery2.default)('#marmotIcon6').click(function () {
+//Large view - Marmots~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(0, _jquery2.default)('#marmotIcon6').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -9896,7 +9897,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#marmot6').show();
 });
-(0, _jquery2.default)('#marmotIcon5').click(function () {
+(0, _jquery2.default)('#marmotIcon5').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -9904,7 +9905,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#marmot5').show();
 });
-(0, _jquery2.default)('#marmotIcon4').click(function () {
+(0, _jquery2.default)('#marmotIcon4').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -9912,7 +9913,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#marmot4').show();
 });
-(0, _jquery2.default)('#marmotIcon3').click(function () {
+(0, _jquery2.default)('#marmotIcon3').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -9920,7 +9921,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#marmot3').show();
 });
-(0, _jquery2.default)('#marmotIcon2').click(function () {
+(0, _jquery2.default)('#marmotIcon2').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -9928,7 +9929,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#marmot2').show();
 });
-(0, _jquery2.default)('#marmotIcon1').click(function () {
+(0, _jquery2.default)('#marmotIcon1').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -9936,8 +9937,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#marmot1').show();
 });
-
-(0, _jquery2.default)('#penguinIcon6').click(function () {
+//Large view - Penguins~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(0, _jquery2.default)('#penguinIcon6').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -9945,7 +9946,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#penguin6').show();
 });
-(0, _jquery2.default)('#penguinIcon5').click(function () {
+(0, _jquery2.default)('#penguinIcon5').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -9953,7 +9954,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#penguin5').show();
 });
-(0, _jquery2.default)('#penguinIcon4').click(function () {
+(0, _jquery2.default)('#penguinIcon4').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -9961,7 +9962,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#penguin4').show();
 });
-(0, _jquery2.default)('#penguinIcon3').click(function () {
+(0, _jquery2.default)('#penguinIcon3').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -9969,7 +9970,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#penguin3').show();
 });
-(0, _jquery2.default)('#penguinIcon2').click(function () {
+(0, _jquery2.default)('#penguinIcon2').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -9977,7 +9978,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#penguin2').show();
 });
-(0, _jquery2.default)('#penguinIcon1').click(function () {
+(0, _jquery2.default)('#penguinIcon1').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -9985,8 +9986,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#penguin1').show();
 });
-
-(0, _jquery2.default)('#pigIcon6').click(function () {
+//Large view - Pigs~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(0, _jquery2.default)('#pigIcon6').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -9994,7 +9995,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#pig6').show();
 });
-(0, _jquery2.default)('#pigIcon5').click(function () {
+(0, _jquery2.default)('#pigIcon5').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10002,7 +10003,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#pig5').show();
 });
-(0, _jquery2.default)('#pigIcon4').click(function () {
+(0, _jquery2.default)('#pigIcon4').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10010,7 +10011,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#pig4').show();
 });
-(0, _jquery2.default)('#pigIcon3').click(function () {
+(0, _jquery2.default)('#pigIcon3').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10018,7 +10019,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#pig3').show();
 });
-(0, _jquery2.default)('#pigIcon2').click(function () {
+(0, _jquery2.default)('#pigIcon2').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10026,7 +10027,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#pig2').show();
 });
-(0, _jquery2.default)('#pigIcon1').click(function () {
+(0, _jquery2.default)('#pigIcon1').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10034,8 +10035,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#pig1').show();
 });
-
-(0, _jquery2.default)('#slothIcon6').click(function () {
+//Large view - Sloths~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(0, _jquery2.default)('#slothIcon6').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10043,7 +10044,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#sloth6').show();
 });
-(0, _jquery2.default)('#slothIcon5').click(function () {
+(0, _jquery2.default)('#slothIcon5').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10051,7 +10052,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#sloth5').show();
 });
-(0, _jquery2.default)('#slothIcon4').click(function () {
+(0, _jquery2.default)('#slothIcon4').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10059,7 +10060,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#sloth4').show();
 });
-(0, _jquery2.default)('#slothIcon3').click(function () {
+(0, _jquery2.default)('#slothIcon3').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10067,7 +10068,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#sloth3').show();
 });
-(0, _jquery2.default)('#slothIcon2').click(function () {
+(0, _jquery2.default)('#slothIcon2').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10075,7 +10076,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#sloth2').show();
 });
-(0, _jquery2.default)('#slothIcon1').click(function () {
+(0, _jquery2.default)('#slothIcon1').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10083,8 +10084,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#sloth1').show();
 });
-
-(0, _jquery2.default)('#fishIcon6').click(function () {
+//Large view - Fish~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(0, _jquery2.default)('#fishIcon6').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10092,7 +10093,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#fish6').show();
 });
-(0, _jquery2.default)('#fishIcon5').click(function () {
+(0, _jquery2.default)('#fishIcon5').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10100,7 +10101,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#fish5').show();
 });
-(0, _jquery2.default)('#fishIcon4').click(function () {
+(0, _jquery2.default)('#fishIcon4').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10108,7 +10109,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#fish4').show();
 });
-(0, _jquery2.default)('#fishIcon3').click(function () {
+(0, _jquery2.default)('#fishIcon3').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10116,7 +10117,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#fish3').show();
 });
-(0, _jquery2.default)('#fishIcon2').click(function () {
+(0, _jquery2.default)('#fishIcon2').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10124,7 +10125,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#fish2').show();
 });
-(0, _jquery2.default)('#fishIcon1').click(function () {
+(0, _jquery2.default)('#fishIcon1').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10132,8 +10133,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#fish1').show();
 });
-
-(0, _jquery2.default)('#dogIcon6').click(function () {
+//Large view - Dogs~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(0, _jquery2.default)('#dogIcon6').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10141,7 +10142,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#dog6').show();
 });
-(0, _jquery2.default)('#dogIcon5').click(function () {
+(0, _jquery2.default)('#dogIcon5').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10149,7 +10150,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#dog5').show();
 });
-(0, _jquery2.default)('#dogIcon4').click(function () {
+(0, _jquery2.default)('#dogIcon4').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10157,7 +10158,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#dog4').show();
 });
-(0, _jquery2.default)('#dogIcon3').click(function () {
+(0, _jquery2.default)('#dogIcon3').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10165,7 +10166,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#dog3').show();
 });
-(0, _jquery2.default)('#dogIcon2').click(function () {
+(0, _jquery2.default)('#dogIcon2').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
@@ -10173,7 +10174,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _jquery2.default)('.pic').hide();
 	(0, _jquery2.default)('#dog2').show();
 });
-(0, _jquery2.default)('#dogIcon1').click(function () {
+(0, _jquery2.default)('#dogIcon1').click(function (e) {
 	(0, _jquery2.default)('.midPage').hide();
 	(0, _jquery2.default)('.bottomPage').show();
 	(0, _jquery2.default)('.bigView').hide();
