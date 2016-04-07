@@ -10,39 +10,39 @@
 	<section class="topPage">
 		<header>All the Animals</header>
 		<div class="allView">
-			<div class="allDogs">
+			<div class="allDogs" data-album-id="Dogs">
 				<div class="picBox">
-					<img src="images/album-covers/dogs.jpg">
+					<img data-album-id="Dogs" src="images/album-covers/dogs.jpg">
 				</div>
 				Dogs
 			</div>
-			<div class="allFishes">
+			<div class="allFishes" data-album-id="Fishes">
 				<div class="picBox">
-					<img src="images/album-covers/fishes.jpg">
+					<img data-album-id="Fishes" src="images/album-covers/fishes.jpg">
 				</div>
 				Fish
 			</div>
-			<div class="allSloths">
+			<div class="allSloths" data-album-id="Sloths">
 				<div class="picBox">
-					<img src="images/album-covers/sloths.jpg">
+					<img data-album-id="Sloths" src="images/album-covers/sloths.jpg">
 				</div>
 				Sloths
 			</div>
-			<div class="allPigs">
+			<div class="allPigs" data-album-id="Pigs">
 				<div class="picBox">
-					<img src="images/album-covers/pigs.jpg">
+					<img data-album-id="Pigs" src="images/album-covers/pigs.jpg">
 				</div>
 				Pigs
 			</div>
-			<div class="allPenguins">
+			<div class="allPenguins" data-album-id="Penguins">
 				<div class="picBox">
-					<img src="images/album-covers/penguins.jpg">
+					<img data-album-id="Penguins" src="images/album-covers/penguins.jpg">
 				</div>
 				Penguins
 			</div>
-			<div class="allMarmots">
+			<div class="allMarmots" data-album-id="Marmots">
 				<div class="picBox">
-					<img src="images/album-covers/marmots.jpg">
+					<img data-album-id="Marmots" src="images/album-covers/marmots.jpg">
 				</div>
 				Marmots
 			</div>
@@ -50,12 +50,12 @@
 	</section>
 	<section class="midPage">
 		<div class="albumButts">
-			<button class="allDogs">Dogs</button>
-			<button class="allFishes">Fishes</button>
-			<button class="allSloths">Sloths</button>
-			<button class="allPigs">Pigs</button>
-			<button class="allPenguins">Penguins</button>
-			<button class="allMarmots">Marmots</button>
+			<button class="allDogs" data-album-id="Dogs">Dogs</button>
+			<button class="allFishes" data-album-id="Fishes">Fishes</button>
+			<button class="allSloths" data-album-id="Sloths">Sloths</button>
+			<button class="allPigs" data-album-id="Pigs">Pigs</button>
+			<button class="allPenguins" data-album-id="Penguins">Penguins</button>
+			<button class="allMarmots" data-album-id="Marmots">Marmots</button>
 		</div>
 		<div class="photoList" id="dogsAlbum">
 			<h1 class="albumTitle">Dogs</h1>
@@ -143,7 +143,7 @@
 			<h1 class="albumTitle">Marmots</h1>
 			<div class="photoDisplay">
 				<div class="photo">
-					<div class="picBox" id="marmotIcon1">
+					<div class="picBox" id="marmotIcon1" data-album-id="marmot">
 						<img src="images/marmots/marmot1.jpg">
 					</div>
 					Sit
@@ -172,9 +172,9 @@
 					</div>
 					Paparazzi
 				</div>
-				<div class="photo">
-					<div class="picBox" id="marmotIcon6">
-						<img src="images/marmots/marmot6.jpg">
+				<div class="photo" data-album-id="marmot">
+					<div class="picBox" id="marmotIcon6" >
+						<img data-album-id="marmot" src="images/marmots/marmot6.jpg">
 					</div>
 					Product Placement
 				</div>
@@ -266,7 +266,7 @@
 			<h1 class="albumTitle">Penguins</h1>
 			<div class="photoDisplay">
 				<div class="photo">
-					<div class="picBox" id="penguinIcon1" data-album="penguin" data-number="1">
+					<div class="picBox" id="penguinIcon1">
 						<img src="images/penguins/penguin1.jpg">
 					</div>
 					Slide
@@ -510,41 +510,41 @@
 				</p>
 			</div>
 		</div>
-		<div class="bigView marmotPics">
+		<div class="bigView marmotPics" data-album-id="marmot">
 			<nav>
 				<button class="albumReturn" id="marmotReturn"><i class="fa fa-angle-left"></i>Back to Marmots</button>
 			</nav>
-			<div class="pic" id="marmot1">
+			<div class="pic" id="marmot1" data-album-id="marmot">
 					<h1 class="picTitle">Sit</h1>
 				<p class="picture">
 					<img src="images/marmots/marmot1.jpg">
 				</p>
 			</div>
-			<div class="pic" id="marmot2">
+			<div class="pic" id="marmot2" data-album-id="marmot">
 					<h1 class="picTitle">Stand</h1>
 				<p class="picture">
 					<img src="images/marmots/marmot2.jpg">
 				</p>
 			</div>
-			<div class="pic" id="marmot3">
+			<div class="pic" id="marmot3" data-album-id="marmot">
 					<h1 class="picTitle">Yawn</h1>
 				<p class="picture">
 					<img src="images/marmots/marmot3.jpg">
 				</p>
 			</div>
-			<div class="pic" id="marmot4">
+			<div class="pic" id="marmot4" data-album-id="marmot">
 					<h1 class="picTitle">Yoda</h1>
 				<p class="picture">
 					<img src="images/marmots/marmot4.jpg">
 				</p>
 			</div>
-			<div class="pic" id="marmot5">
+			<div class="pic" id="marmot5" data-album-id="marmot">
 					<h1 class="picTitle">Paparazzi</h1>
 				<p class="picture">
 					<img src="images/marmots/marmot5.jpg">
 				</p>
 			</div>
-			<div class="pic" id="marmot6">
+			<div class="pic" id="marmot6" data-album-id="marmot">
 					<h1 class="picTitle">Product Placement</h1>
 				<p class="picture">
 					<img src="images/marmots/marmot6.jpg">

@@ -37,54 +37,56 @@ $('#dogReturn').click(e => {
 	$('.dogs').addClass('active');
 });
 //Large view - Marmots~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-$('#marmotIcon6').click(e => {
+$('.photo').click(e => {
+	console.log(e.target);
+	console.log($(e.target).data("album-id"));
 	$('.midPage').hide();
 	$('.bottomPage').show();
 	$('.bigView').hide();
-	$('.marmotPics').show();
+	$(`.${$(e.target).data("album-id")}Pics`).show();
 	$('.pic').hide();
-	$('#marmot6').show();
+	$(`#${$(e.target).data("album-id")}6`).show();
 });
-$('#marmotIcon5').click(e => {
-	$('.midPage').hide();
-	$('.bottomPage').show();
-	$('.bigView').hide();
-	$('.marmotPics').show();
-	$('.pic').hide();
-	$('#marmot5').show();
-});
-$('#marmotIcon4').click(e => {
-	$('.midPage').hide();
-	$('.bottomPage').show();
-	$('.bigView').hide();
-	$('.marmotPics').show();
-	$('.pic').hide();
-	$('#marmot4').show();
-});
-$('#marmotIcon3').click(e => {
-	$('.midPage').hide();
-	$('.bottomPage').show();
-	$('.bigView').hide();
-	$('.marmotPics').show();
-	$('.pic').hide();
-	$('#marmot3').show();
-});
-$('#marmotIcon2').click(e => {
-	$('.midPage').hide();
-	$('.bottomPage').show();
-	$('.bigView').hide();
-	$('.marmotPics').show();
-	$('.pic').hide();
-	$('#marmot2').show();
-});
-$('#marmotIcon1').click(e => {
-	$('.midPage').hide();
-	$('.bottomPage').show();
-	$('.bigView').hide();
-	$('.marmotPics').show();
-	$('.pic').hide();
-	$('#marmot1').show();
-});
+// $('#marmotIcon5').click(e => {
+// 	$('.midPage').hide();
+// 	$('.bottomPage').show();
+// 	$('.bigView').hide();
+// 	$('.marmotPics').show();
+// 	$('.pic').hide();
+// 	$('#marmot5').show();
+// });
+// $('#marmotIcon4').click(e => {
+// 	$('.midPage').hide();
+// 	$('.bottomPage').show();
+// 	$('.bigView').hide();
+// 	$('.marmotPics').show();
+// 	$('.pic').hide();
+// 	$('#marmot4').show();
+// });
+// $('#marmotIcon3').click(e => {
+// 	$('.midPage').hide();
+// 	$('.bottomPage').show();
+// 	$('.bigView').hide();
+// 	$('.marmotPics').show();
+// 	$('.pic').hide();
+// 	$('#marmot3').show();
+// });
+// $('#marmotIcon2').click(e => {
+// 	$('.midPage').hide();
+// 	$('.bottomPage').show();
+// 	$('.bigView').hide();
+// 	$('.marmotPics').show();
+// 	$('.pic').hide();
+// 	$('#marmot2').show();
+// });
+// $('#marmotIcon1').click(e => {
+// 	$('.midPage').hide();
+// 	$('.bottomPage').show();
+// 	$('.bigView').hide();
+// 	$('.marmotPics').show();
+// 	$('.pic').hide();
+// 	$('#marmot1').show();
+// });
 //Large view - Penguins~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 $('#penguinIcon6').click(e => {
 	$('.midPage').hide();
@@ -331,76 +333,17 @@ $('#dogIcon1').click(e => {
 	$('#dog1').show();
 });
 //Toggle through Mid Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-$('.allDogs').click(e => {
+const click = e => {
+	console.log(e.target);
+	console.log($(e.target).data('album-id'));
+	var albumId = `#${$(e.target).data("album-id").toLowerCase()}Album`
 	$('button').removeClass('active');
-	$('e.target').toggleClass('active');
+	$(e.target).toggleClass('active');
 	$('.photoList').hide();
-	$('#dogsAlbum').show();
-});
-$('.allFishes').click(e => {
-	$('button').removeClass('active');
-	$(e.target).addClass('active');
-	$('.photoList').hide();
-	$('#fishesAlbum').show();
-});
-$('.allSloths').click(e => {
-	$('button').removeClass('active');
-	$(e.target).addClass('active');
-	$('.photoList').hide();
-	$('#slothsAlbum').show();
-});
-$('.allPigs').click(e => {
-	$('button').removeClass('active');
-	$(e.target).addClass('active');
-	$('.photoList').hide();
-	$('#pigsAlbum').show();
-});
-$('.allMarmots').click(e => {
-	$('button').removeClass('active');
-	$(e.target).addClass('active');
-	$('.photoList').hide();
-	$('#marmotsAlbum').show();
-});
-$('.allPenguins').click(e => {
-	$('button').removeClass('active');
-	$(e.target).addClass('active');
-	$('.photoList').hide();
-	$('#penguinsAlbum').show();
-});
-//Top Page to Mid Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-$('.allMarmots').click(e => {
 	$('.topPage').hide();
 	$('.midPage').show();
-	$('.allMarmots').addClass('active');
-	$('#marmotsAlbum').show();
-});
-$('.allPenguins').click(e => {
-	$('.topPage').hide();
-	$('.midPage').show();
-	$('.allPenguins').addClass('active');
-	$('#penguinsAlbum').show();
-});
-$('.allPigs').click(e => {
-	$('.topPage').hide();
-	$('.midPage').show();
-	$('.allPigs').addClass('active');
-	$('#pigsAlbum').show();
-});
-$('.allSloths').click(e => {
-	$('.topPage').hide();
-	$('.midPage').show();
-	$('.allSloths').addClass('active');
-	$('#slothsAlbum').show();
-});
-$('.allDogs').click(e => {
-	$('.topPage').hide();
-	$('.midPage').show();
-	$('.allDogs').addClass('active');
-	$('#dogsAlbum').show();
-});
-$('.allFishes').click(e => {
-	$('.topPage').hide();
-	$('.midPage').show();
-	$('.allFishes').addClass('active');
-	$('#fishesAlbum').show();
-});
+	$(`.all${$(e.target).data("album-id")}`).addClass('active');
+	$(albumId).show();
+}
+$('.albumButts button').click(click);
+$('.allView div').click(click);
